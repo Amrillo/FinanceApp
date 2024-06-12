@@ -1,0 +1,95 @@
+
+ <div class="row" id="income-content">
+    <div class="col-12 income-col income-add" id="category-add">
+        <button type="button" class="reset-btn">
+            <img src="images/plus-icon.svg" alt="plus">
+        </button>
+    </div>
+ </div>
+ <div class="category-create" id="category-create">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Название" id="create-name">
+    </div>
+    <div class="row">
+        <div class="col-3 ps-0">
+            <button type="button" class="btn btn-success" id="createBtn">Создать</button>
+        </div>
+       <div class="col-4 ps-0">
+             <button type="button" class="btn btn-danger" id="cancel-create-btn">Отмена</button>
+       </div>
+    </div>
+ </div>
+ <div class="category-change" id="category-change">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="save-input">
+    </div>
+    <div class="row d-flex">
+        <div class="col-3 ps-0 me-4">
+            <button type="button" class="btn btn-success" id="save-changes">Сохранить</button>
+        </div>
+       <div class="col-4 ps-0">
+             <button type="button" class="btn btn-danger" id="cancel-changes">Отмена</button>
+       </div>
+    </div>
+ </div>
+
+<div class="modal-dialog income-modal" id="income-modal">
+    <div class="modal-content justify-content-center">
+        <div class="modal-body text-center mb-3" id="modal-body">
+            Вы действительно хотите удалить категорию? Связанные доходы будут удалены навсегда.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-success me-3" id="deletebtn">Да, удалить</button>
+            <button type="button" class="btn btn-danger" id="keepbtn">Не удалять</button>
+        </div>
+    </div>
+</div>
+  
+
+
+<!-- <div class="container" id="income-content">
+    <div class="row" id="category-add">
+        <div class="col-12 d-flex justify-content-center">
+            <button type="button" class="reset-btn">
+                <img src="images/plus-icon.svg" alt="plus">
+            </button>
+        </div>
+    </div>
+    <div class="category-create" id="category-create">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Название" id="create-name">
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-3 ps-0 mb-2 mb-md-0">
+                <button type="button" class="btn btn-success w-100" id="createBtn">Создать</button>
+            </div>
+            <div class="col-6 col-md-4 ps-0">
+                <button type="button" class="btn btn-danger w-100" id="cancel-create-btn">Отмена</button>
+            </div>
+        </div>
+    </div>
+    <div class="category-change" id="category-change">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="save-input">
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-3 ps-0 mb-2 mb-md-0">
+                <button type="button" class="btn btn-success w-100" id="save-changes">Сохранить</button>
+            </div>
+            <div class="col-6 col-md-4 ps-0">
+                <button type="button" class="btn btn-danger w-100" id="cancel-changes">Отмена</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-dialog income-modal" id="income-modal">
+        <div class="modal-content">
+            <div class="modal-body text-center mb-3" id="modal-body">
+                Вы действительно хотите удалить категорию? Связанные доходы будут удалены навсегда.
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <button type="button" class="btn btn-success me-3" id="deletebtn">Да, удалить</button>
+                <button type="button" class="btn btn-danger" id="keepbtn">Не удалять</button>
+            </div>
+        </div>
+    </div>
+</div> -->

@@ -1,0 +1,46 @@
+
+    <section class="signup">
+        <div class="container vh-100 d-flex justify-content-center align-items-center">
+            <div class="row login-logo d-flex justify-content-center align-items-center">
+                    <div class="text-center mb-4">
+                        <img src="images/logo.png" alt="logotip">
+                    </div>
+                    <h1 class="title text-center mb-5 fs-1">
+                        Создайте аккаунт
+                </h1>
+                <div class="form d-flex flex-column">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                            <img src="images/person-icon.png" alt="icon">
+                        </span>
+                        <input type="text" class="form-control" placeholder="ФИО" required id="name" >
+                    </div>
+                    <div class="error">Имя должно содержат только две слова. Каждое слова должен начинаться с большой буквы.</div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                            <img src="images/icon-mail.png" alt="icon"></span>
+                        <input type="email" class="form-control" placeholder="Электронная почта" required id="email">  
+                    </div>
+                    <div class="error" >Укажите правильную почту</div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                        <img src="images/icon-lock.png" alt="icon"></span>
+                        <input type="password" class="form-control" placeholder="Пароль" required id="password">   
+                    </div>
+                    <div class="error" >Пароль должен быть не менее 8 символов, содержать как минимум 1 букву в верхнем регистре и как минимум 1 цифру</div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                        <img src="images/icon-lock.png" alt="icon"></span>
+                        <input type="password" class="form-control" placeholder="Подтверждение пароля" id="password-confirm" required>
+                    </div>
+                    <div class="error" >Пароль не совпадает</div>
+                    <button class="w-100 btn btn-primary mb-2" disabled id="submit-btn">Войти</button>
+                    <div class="form-gotosignup">
+                        Ещё нет аккаунта?  
+                        <a  class="ms-2" href="/#/login">Войдите в систему</a>
+                    </div>
+                </div>
+                
+            </div> 
+        </div> 
+    </section>

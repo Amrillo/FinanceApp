@@ -1,0 +1,40 @@
+
+.income-col {  
+    padding: 20px 100px 20px 20px;
+    border: 1px solid #CED4DA;
+    margin-right: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    max-width: 352px;
+}
+
+.income-add {  
+    padding: 0;
+    width: 352px ;
+    border: 1px solid #CED4DA;
+    height: 121px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button-wrapper {  
+    width: 300px;
+}
+.category-create {  
+    display: none;
+    width: 397px;
+}
+.category-create .input-group {  
+    margin-left: -13px;
+}
+.category-change {    
+    display: none;
+    width: 397px;
+}
+.category-change .input-group {  
+    margin-left: -13px;
+}
+

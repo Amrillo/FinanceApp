@@ -1,0 +1,92 @@
+<div class="wrapper-operations" id="wrapper-operations">
+    <div class="row justify-content-start pb-4">
+        <div class="col-4 lg-2 me-5">
+            <button type="button" class="btn btn-success btn-operations" data-finance = "дохода">Создать доход</button>
+        </div>
+        <div class="col-4 col-lg-1">
+            <button type="button" class="btn btn-danger btn-operations" data-finance = "расхода">Создать расход</button>
+        </div>
+    </div>
+    <div id="operations-periods">
+    </div>
+    <table class="table">
+        <thead>
+            <tr class="table-title">
+                <th scope="col">№ операции</th>
+                <th scope="col">Тип</th>
+                <th scope="col">Категория</th>
+                <th scope="col">Сумма</th>
+                <th scope="col">Дата</th>
+                <th scope="col">Комментарий</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+</div>
+<form class="form-operations" id="form-operations">
+    <div class="input-group mb-3">
+        <select class="form-select" aria-label="Default select example" id="typeSelect" data-input="creation">
+            <option selected value=""></option>
+          </select>
+    </div>
+    <div class="input-group mb-3">
+        <select class="form-select" aria-label="Default select example" id="categorySelect" data-input="creation">
+            <option selected value=""></option>
+          </select>
+    </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Сумма в $..." data-input="creation" aria-label="Username" id="input-amount">
+    </div>
+    <div class="input-group mb-3">
+        <input type="date" class="form-control" placeholder="Дата..." data-input="creation" id="input-date">
+    </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Комментарий..." data-input="creation" id="input-comment">
+    </div>
+    <div class="row d-flex">
+        <div class="col-2 me-4">
+            <button type="button" class="btn btn-success" id="createbtn">Создать</button>
+        </div>
+       <div class="col-2">
+             <button type="button" class="btn btn-danger" id="cancelbtn">Отмена</button>
+       </div>
+    </div>
+</form>
+<form class="form-operations" id="form-change-category">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" data-input="change" id="input-typecategory">
+    </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" data-input="change"  id="input-category">
+    </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" data-input="change" id="input-categoryamount">
+    </div>
+    <div class="input-group mb-3">
+        <input type="date" class="form-control" data-input="change" id="input-categorydate">
+    </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" data-input="change" placeholder="Комментарий..." id="input-categorycomment">
+    </div>
+    <div class="row d-flex">
+        <div class="col-4">
+            <button type="button" class="btn btn-success me-3" id="change-category">Сохранит</button>
+        </div>
+       <div class="col-3">
+             <button type="button" class="btn btn-danger" id="cancel-category">Отмена</button>
+       </div>
+    </div>
+</form>
+<div class="modal-dialog" id="modal-remove">
+    <div class="modal-content justify-content-center">
+        <div class="modal-body text-center mb-3">
+            Вы действительно хотите удалить операцию?
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-success me-3" id="remove-category">Да,удалить</button>
+            <button type="button" class="btn btn-danger" id="keep-category">Не удалят</button>
+        </div>  
+    </div>
+</div>

@@ -1,0 +1,29 @@
+.btn-operations {  
+    width: 130px;
+    font-size: 14px ;
+    padding: 12px 5px ;
+    font-weight: 500;
+  }
+
+  .periods {  
+    padding-bottom: 40px;
+  }
+
+   table {  
+    border-top: 1px solid #DEE2E6 !important;
+    border-bottom: 1px solid #DEE2E6 !important;
+    text-align: center !important;
+    font-size: 16px;
+   }
+  .table-title th {  
+    color: #052C65 !important; 
+  }
+  
+  .form-operations { 
+    display: none; 
+    width: 397px;
+  }
+  .periods button {
+    color: #6C757D;
+}
+
